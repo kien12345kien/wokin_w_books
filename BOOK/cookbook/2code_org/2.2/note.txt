@@ -1,0 +1,3 @@
+Ensuring You Have Only One Instance of a Variable Across Multiple Source Files
+
+_extern_:   tells compiler actua storage for a variable is allocated somewhere else
