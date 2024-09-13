@@ -1,0 +1,4 @@
+/bin/bash: called shebang. it allows to define which program will be run to interpret the script
+-	multiple types of shebang:  for Ruby #!/usr/bin/env ruby
+				    for Perl #!/usr/bin/perl
+-	use "chmod" to change mode command and pass it the +x argument which makes a file executable

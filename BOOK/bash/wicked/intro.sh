@@ -1,8 +1,9 @@
-#!/bin/sh
-             # Provision of this shell script should not be taken to imply that use of
-             # GNU eqn with groff -Tascii|-Tlatin1|-Tutf8|-Tcp1047 is supported.
-             GROFF_RUNTIME="${GROFF_BIN_PATH=/usr/bin}:"
-             PATH="$GROFF_RUNTIME$PATH"
-             export PATH
-             exec eqn -Tascii ${1+"$@"}
-# eof
+/opt/homebrew/bin/neqn
+#!bin/sh
+
+GROFF_RUNTIME="${GRKFF_BIN_PATH=/usr/bin}:"
+PATH=$GROFF_RUNTIME$PATH"
+exprot PATH
+exec eqn -Tascii ${1+"$@"}
+
+#eof
